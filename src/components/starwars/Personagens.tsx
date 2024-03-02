@@ -4,7 +4,7 @@ interface PersonagensProps{
 
 export default function personagens(props: PersonagensProps) {
 
-    function rendezarPersonagem(){
+    function renderizarPersonagem(){
         return (
             <ul>
                 {props.personagens.map((p:any) => (
@@ -15,7 +15,7 @@ export default function personagens(props: PersonagensProps) {
     }
 
     return (
-      <div>{rendezarPersonagem()}</div>
+      <div>{renderizarPersonagem()}</div>
     );
   }
   
